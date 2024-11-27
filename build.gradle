@@ -8,6 +8,7 @@ buildscript {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        maven { url 'https://nexus.web.cern.ch/nexus/content/repositories/public/' }
         maven { url 'https://jitpack.io' }
         google()
     }
@@ -28,6 +29,9 @@ allprojects {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        maven { url 'https://nexus.web.cern.ch/nexus/content/repositories/public/' }
+        maven { url 'https://jitpack.io' }
+        google()
     }
 }
 
